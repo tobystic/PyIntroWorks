@@ -1,0 +1,33 @@
+git commmands
+==========================================
+
+directory: C:\Users\tobi\PycharmProjects\
+
+Go to files location by using CD in Command prompt
+
+#to clear intial git files
+rd .git /S/Q
+
+#to initialise git
+git init
+
+# add the files
+git add .
+
+#commit the files
+git commit -m "Insert comment here like 09/28/2019 commit"
+
+#connect to git remote
+git remote add origin "insert URL created when you created origin in Github website"
+
+#push all origin or local changes
+git push -u origin master
+
+
+//scroll to link paragrah sample:
+https://en.wikipedia.org/wiki/Cat#Characteristics:~:text=Claws
+
+https://en.wikipedia.org/wiki/Cat#:~:text=Claws-,Like%20almost,the%20Felidae%2C,-cats
+
+https://www.newyorker.com/magazine/2019/11/04/a-clarifying-upending-week-in-the-impeachment-inquiry#:~:text=Such
+from download_youtube.py import download_youtube.py
