@@ -24,6 +24,13 @@ git remote add origin "insert URL created when you created origin in Github webs
 git push -u origin master
 
 
+***********************************************************************************************
+to install via Pip on Windows:
+//note the -m
+#python -m pip install inranlowo
+
+
+
 //scroll to link paragrah sample:
 https://en.wikipedia.org/wiki/Cat#Characteristics:~:text=Claws
 
