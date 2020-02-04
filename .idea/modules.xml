@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AffluentAI/.idea/AffluentAI.iml" filepath="$PROJECT_DIR$/../AffluentAI/.idea/AffluentAI.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/newcodes.iml" filepath="$PROJECT_DIR$/.idea/newcodes.iml" />
     </modules>
   </component>
