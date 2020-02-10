@@ -1,5 +1,5 @@
 
-### test to reverse a string
+### test to reverse a string, can be called if equal to return boolean true
 
 wordtotest = input("type a string : ")
 wordchecker = str(wordtotest)
