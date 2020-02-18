@@ -1,5 +1,6 @@
 
 ### test to reverse a string, can be called if equal to return boolean true. if cw===wc
+## easily modifiable for braces checker
 
 wordtotest = input("type a word(string) to get it's reversed version : ")
 wordchecker = str(wordtotest)
