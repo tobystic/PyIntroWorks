@@ -1,3 +1,5 @@
+### code to list all the possible arrangements of letters in a word###
+### similar to number of ways 8 people may sit on a bench###
 
 def possibleperm(newword):
 
