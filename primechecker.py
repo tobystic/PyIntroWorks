@@ -22,9 +22,10 @@ def isprime(numbertotest):
 isprime(newnumber)
 #print(isprime(newnumber))
 
+#formatting answers
 """varitest = float(1500 / newnumber)
 print(varitest)
 print(floor(varitest))
 print(sin(varitest))
-print(f"The square root of varitest is: {sqrt(varitest): 3f}")"""
+print(f"The sq root of varitest is: {sqrt(varitest): 3f}")"""
 
