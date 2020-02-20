@@ -20,3 +20,4 @@ class QuadraticEquation:
 
 example11 = QuadraticEquation(1.0, 5.0, 6.0)
 print(example11)
+##find out if determinant as a variable exists already in math library.makes code shorter
