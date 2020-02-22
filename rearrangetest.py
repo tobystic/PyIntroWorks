@@ -1,4 +1,4 @@
-
+#this wont be needed,  a bigger function is easily built with the recursive function. Delete later
 testword = input("Enter word here: ")
 for i in range(len(testword)):
     x1 = testword[i]
