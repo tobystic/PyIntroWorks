@@ -1,11 +1,12 @@
 import numpy as np
 
+#put numbers into an array
 a = np.array([2,3,4])
 
 
 print(a)
 
-
+#print numbers between 1 and 12 with a jumpspace of 2
 b = np.arange(1, 12, 2)
 print(b)
 
