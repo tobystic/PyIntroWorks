@@ -12,9 +12,11 @@ print(b)
 
 c = np.linspace(1, 18, 6)
 
+#to convert the array to 3 by 2 matrix
 print(c.reshape(3, 2))
-print("")
+print("..")
 
+#print 
 d = c.reshape(2, 3)
 print(d)
 print(c.size)
