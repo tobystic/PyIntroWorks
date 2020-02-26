@@ -11,7 +11,7 @@ print(list[2])
 print("the length of list is: " + len(list))
 city = []
 
-#for i in range(5):
+#pass list into an array:
 for j in range(len(list)-1):
     city[j] = list[j]
 
