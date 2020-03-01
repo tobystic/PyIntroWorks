@@ -16,7 +16,7 @@ def braceschecker(userword):
         return("Inapproriate start or ending tag, check again")
         break
     
-    if counter1 == counter2:
+    elif counter1 == counter2:
         print("They are equal")
     else:
         print("Not balanced")
