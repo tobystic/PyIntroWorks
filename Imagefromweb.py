@@ -1,5 +1,6 @@
-import random
+#code to obtain image from web
 import urllib.request
+import random
 
 
 def download_web_image(url):
