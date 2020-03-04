@@ -2,7 +2,7 @@
 import sys
 import socket
 
-fqdnvalue = input("Enter the web address you are looking to resolve : ")
+fqdnvalue = input("Enter the web address or URL you are looking to resolve : ")
 
 try:
     host = str(fqdnvalue).replace("https://", "").replace("http://", "").replace("www.", "")
