@@ -23,6 +23,11 @@ git remote add origin "insert URL created when you created origin in Github webs
 #push all origin or local changes
 git push -u origin master
 
+#if adding a folder, put the forward slash e.g 
+git add audiofilesstore/
+
+#to update local folder after making changes online
+git pull
 
 ***********************************************************************************************
 to install via Pip on Windows:
