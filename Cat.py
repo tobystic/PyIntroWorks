@@ -29,3 +29,5 @@ class Cat:
 
 cat1 = Cat("Schrodinger", "Chesire", 31)
 print(cat1)
+
+print("Breedingmay be suspended due to the CoronaVirus")
