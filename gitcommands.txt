@@ -29,6 +29,8 @@ git add audiofilesstore/
 #to update local folder after making changes online
 git pull
 
+## if upstream is rejected and pull fails,
+git pull origin master --allow-unrelated-histories
 ***********************************************************************************************
 to install via Pip on Windows:
 //note the -m
@@ -43,3 +45,15 @@ https://en.wikipedia.org/wiki/Cat#:~:text=Claws-,Like%20almost,the%20Felidae%2C,
 
 https://www.newyorker.com/magazine/2019/11/04/a-clarifying-upending-week-in-the-impeachment-inquiry#:~:text=Such
 from download_youtube.py import download_youtube.py
+
+
+
+
+/***********************************************
+videos 
+
+connect to php database: https://www.youtube.com/watch?v=ueWpNe0PG34
+
+create php database and connect to your html page: https://www.youtube.com/watch?v=G3S20covzgQ
+
+Google user signin: https://www.youtube.com/watch?v=qzq0kEUa5lU
