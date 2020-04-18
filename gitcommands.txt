@@ -31,6 +31,13 @@ git pull
 
 ## if upstream is rejected and pull fails,
 git pull origin master --allow-unrelated-histories
+
+update prod on azure: git push azure master
+
+https://afrolingoweb.scm.azurewebsites.net:443/afrolingoweb.git 
+https://afrolingoweb.azurewebsites.net/
+
+
 ***********************************************************************************************
 to install via Pip on Windows:
 //note the -m
@@ -57,3 +64,8 @@ connect to php database: https://www.youtube.com/watch?v=ueWpNe0PG34
 create php database and connect to your html page: https://www.youtube.com/watch?v=G3S20covzgQ
 
 Google user signin: https://www.youtube.com/watch?v=qzq0kEUa5lU
+
+
+
+
+splunk, wireshark, AppInsight, Guarduty #____________
