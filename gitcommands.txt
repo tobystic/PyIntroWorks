@@ -69,3 +69,7 @@ Google user signin: https://www.youtube.com/watch?v=qzq0kEUa5lU
 
 
 splunk, wireshark, AppInsight, Guarduty #____________
+
+
+#to do 
+1. review Azure security WAF codes and Kusto queries
