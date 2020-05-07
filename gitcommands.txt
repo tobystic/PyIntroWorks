@@ -73,3 +73,7 @@ splunk, wireshark, AppInsight, Guarduty #____________
 
 #to do 
 1. review Azure security WAF codes and Kusto queries
+
+
+** when running files in venv in vscode, use the filename.py to run it in command prompt if "Run" does not work
+More infor  here : https://code.visualstudio.com/docs/python/python-tutorial
