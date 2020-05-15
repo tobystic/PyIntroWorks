@@ -82,4 +82,5 @@ More infor  here : https://code.visualstudio.com/docs/python/python-tutorial
 How generate key
 go to bashin cloud shell :
 >> ssh-keygen -m PEM -t rsa -b 4096
-then cd in to .ssh dir
+then cd in to .ssh dir or
+do dir, then cat into "filename.pub"
