@@ -77,3 +77,9 @@ splunk, wireshark, AppInsight, Guarduty #____________
 
 ** when running files in venv in vscode, use the filename.py to run it in command prompt if "Run" does not work
 More infor  here : https://code.visualstudio.com/docs/python/python-tutorial
+
+
+How generate key
+go to bashin cloud shell :
+>> ssh-keygen -m PEM -t rsa -b 4096
+then cd in to .ssh dir
