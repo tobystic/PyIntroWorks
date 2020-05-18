@@ -84,3 +84,14 @@ go to bashin cloud shell :
 >> ssh-keygen -m PEM -t rsa -b 4096
 then cd in to .ssh dir or
 do dir, then cat into "filename.pub"
+
+
+*************************************
+stop Azure AppGateway
+*************************************
+
+$gw = Get-AzureRmApplicationGateway -Name myAppGateway  -ResourceGroupName CxE-TOBI
+
+Stop-AzureRmApplicationGateway -ApplicationGateway $gw
+
+-----------------------------------------------------------
