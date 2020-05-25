@@ -1,0 +1,27 @@
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
+
+
+//to switch to scripting mode or editor and all that
+
+//You can first load an image e.g. Busybox
+
+>docker run Busybox
+
+//you can also check the status of all images on your container
+
+>docker ps
+
+// this may show nothing because they may all be exited
+
+//to see all that was run earlier try the folowing
+
+>docker ps -a 
+
+// then you can switch to the work area 
+>docker run -it busybox sh
+
+// to see exposed ports -p and random open ports for a static site for instance in detached mode -d
+>docker run -d -P --name static-site prakhar1989/static-site
+
+to get into a container
+docker exec -it 893431c46985 /bin/sh
