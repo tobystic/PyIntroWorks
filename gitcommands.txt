@@ -97,3 +97,17 @@ $gw = Get-AzureRmApplicationGateway -Name myAppGateway  -ResourceGroupName CxE-T
 Stop-AzureRmApplicationGateway -ApplicationGateway $gw
 
 -----------------------------------------------------------
+
+
+Windows PowerShell
+
+PS C:\windows\system32> New-SelfSignedCertificate -CertStoreLocation C:\Users\olotolor\Documents\workfiles -dnsname www.contoso.com
+## You should see the following
+
+   PSParentPath: Microsoft.PowerShell.Security\Certificate::LocalMachine\MY
+
+Thumbprint                                Subject
+----------                                -------
+4CD79109804B7A331C4A70EC9F1708831AB02448  CN=www.contoso.com
+
+PS C:\windows\system32>
