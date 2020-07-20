@@ -1,0 +1,6 @@
+
+Create Firewall:
+
+//Use postman to create or go here: https://docs.microsoft.com/en-us/rest/api/firewall/azurefirewalls/createorupdate
+
+PUT https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/azureFirewalls/{azureFirewallName}?api-version=2020-05-01
