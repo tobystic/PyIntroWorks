@@ -1,0 +1,63 @@
+##### Useful handy Azure commands to get some tasks done #####
+
+
+
+create variable and use it to start/stop AppGateway
+---------------------------------------------------------------------
+$myAppGateway = Get-AzApplicationGateway -Name "AppGwSEA" -ResourceGroupName CXE_Tobi
+Stop-AzureRmApplicationGateway -ApplicationGateway $myAppGateway
+
+Start-AzureRmApplicationGateway -ApplicationGateway $myAppGateway
+
+
+switch subscrition
+-------------------------
+# show accounts
+az account list --output table
+
+#set or point to a directory
+az account set --subscription 6b1ceacd-5731-4780-8f96-2078dd96fd96
+
+Get-AzContext 
+Get-AzSubscription <insert subscription name>
+
+Connect-AzAccount
+
+
+
+
+
+create a custom rule in WAF
+------------------------------------
+
+##Create the variable for request header.
+$variable = New-AzApplicationGatewayFirewallMatchVariable `
+-VariableName RequestHeaders `
+-Selector Content-Type
+
+•	#Find and Match the condition
+$condition = New-AzApplicationGatewayFirewallCondition `
+-MatchVariable $variable `
+-Operator Equal `
+-MatchValue "application/secret-request" `
+-Transform Lowercase `
+-NegationCondition $true
+
+
+•	#Create the rule 
+$rule = New-AzApplicationGatewayFirewallCustomRule `
+-Name DenyNonSecretRequests `
+-Priority 10 `
+-RuleType MatchRule `
+-MatchCondition $condition `
+-Action Block
+
+# Get the existing policy 
+$policy = Get-AzApplicationGatewayFirewallPolicy -ResourceGroupName CXE_Tobi
+
+# Add the new $rule that was created
+$policy.CustomRules.Add($rule) 
+
+# Update the policy 
+Set-AzApplicationGatewayFirewallPolicy -InputObject $policy
+
