@@ -25,3 +25,12 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 
 to get into a container
 docker exec -it 893431c46985 /bin/sh
+
+
+for regular linux
+---------------------
+to install Kali linux in Debian (Gogle GCP VM instance for instace)
+https://securitytrails.com/blog/install-kali-linux-cloud
+
+if you get some errors with permission, use this to fix : https://techoverflow.net/2019/03/16/how-to-solve-permission-denied-error-when-trying-to-echo-into-a-file/
+
