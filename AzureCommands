@@ -18,10 +18,24 @@ az account list --output table
 #set or point to a directory
 az account set --subscription 6b1ceacd-5731-4780-8f96-2078dd96fd96
 
+#log in
+Connect-AzAccount
+
+#get all the available subscriptions
 Get-AzContext 
+
+#select your subscription to work on 
 Get-AzSubscription <insert subscription name>
 
-Connect-AzAccount
+#group template deployment (put template path ina variable, then deploy)
+New-AzResourceGroupDeployment -ResourceGroupName "demoresourcegroup2"
+
+
+PS C:\Users\olotolor> $newtempfile="C:\Users\olotolor\Downloads\tutorials\ARMtemps\azuredeploy.jsonc"
+PS C:\Users\olotolor> New-AzResourceGroupDeployment `
+>> -Name addstorage `
+>> -ResourceGroupName CXE_Tobi `
+>> -TemplateFile $newtempfile
 
 
 
@@ -60,4 +74,5 @@ $policy.CustomRules.Add($rule)
 
 # Update the policy 
 Set-AzApplicationGatewayFirewallPolicy -InputObject $policy
+
 
