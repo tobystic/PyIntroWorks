@@ -1,5 +1,6 @@
 iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 
+//update more commands as soon as possible
 
 //to switch to scripting mode or editor and all that
 
