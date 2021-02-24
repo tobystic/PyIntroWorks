@@ -1,4 +1,5 @@
-#this wont be needed,  a bigger function is easily built with the recursive function. Delete later
+#this wont be needed,  a bigger function is easily built with the recursive function. Delete later.Not sure what this code does again but I think it prints all the letters after a parti
+#particular letter. I'll update this later
 testword = input("Enter word here: ")
 for i in range(len(testword)):
     x1 = testword[i]
