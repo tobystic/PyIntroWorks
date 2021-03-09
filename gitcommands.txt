@@ -1,6 +1,10 @@
 git commmands
 ==========================================
 
+
+Git commands for everyday thingumy
+basics
+************************************************************************************
 directory: C:\Users\tobi\PycharmProjects\
 
 Go to files location by using CD in Command prompt
@@ -33,7 +37,10 @@ git pull
 git pull origin master --allow-unrelated-histories
 
 update prod on azure: git push azure master
-
+ ------------------------------------------------------------------------------------------------------
+ ********************************************************************************************************
+ 
+ 
 https://afrolingoweb.scm.azurewebsites.net:443/afrolingoweb.git 
 https://afrolingoweb.azurewebsites.net/
 
