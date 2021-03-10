@@ -8,3 +8,9 @@
 
 **NumPy and Panda
 **convert IP addresses to FQDN and git commands
+
+
+
+-----------------------------------------------------------------------
+to study:
+O - Notaton. (Work with Sonya on Growth team)
