@@ -66,13 +66,26 @@ $rule = New-AzApplicationGatewayFirewallCustomRule `
 -MatchCondition $condition `
 -Action Block
 
-# Get the existing policy 
+***************************
+# Get the existing policy *
+***************************
 $policy = Get-AzApplicationGatewayFirewallPolicy -ResourceGroupName CXE_Tobi
 
-# Add the new $rule that was created
+**************************************
+# Add the new $rule that was created *
+**************************************
 $policy.CustomRules.Add($rule) 
 
-# Update the policy 
+
+*********************
+# Update the policy *
+*********************
 Set-AzApplicationGatewayFirewallPolicy -InputObject $policy
 
 
+**************************
+Deallocate Azure Firewall*
+**************************
+$azfw = Get-AzFirewall -Name redmndseattle -ResourceGroupName TobiSEA2
+$azfw.Deallocate()
+Set-AzFirewall -AzureFirewall $azfw
