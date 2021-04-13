@@ -134,3 +134,14 @@ chmod u+x burpsuite
 
 
 adding VWAN tutorials/attribute
+
+
+
+==================================================
+list session
+
+lsof -i :<port_number>
+
+kill session
+
+kill -9 <PID>
