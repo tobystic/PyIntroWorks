@@ -9,6 +9,7 @@
 **NumPy and Panda
 **convert IP addresses to FQDN and git commands
 
+** Git commands and Docker queries
 
 
 -----------------------------------------------------------------------
