@@ -40,15 +40,13 @@ update prod on azure: git push azure master
  ------------------------------------------------------------------------------------------------------
  ********************************************************************************************************
  
- 
-https://afrolingoweb.scm.azurewebsites.net:443/afrolingoweb.git 
-https://afrolingoweb.azurewebsites.net/
+
 
 ## if fatal error occurs because remote origin already exists, set-url to new git URL. eg
-PS C:\Users\olotolor\workspace\Repo\NetsecStaging\tobNetsecstaging\Azure-Network-Security> git remote add origin https://github.com/tobystic/AzureNetSecStaging.git
+PS C:\Users\username\workspace\Repo\NetsecStaging\tobNetsecstaging\Azure-Network-Security> git remote add origin https://github.com/tobystic/AzureNetSecStaging.git
 fatal: remote origin already exists.
-PS C:\Users\olotolor\workspace\Repo\NetsecStaging\tobNetsecstaging\Azure-Network-Security>
-PS C:\Users\olotolor\workspace\Repo\NetsecStaging\tobNetsecstaging\Azure-Network-Security> git remote set-url origin https://github.com/tobystic/AzureNetSecStaging.git
+PS C:\Users\username\workspace\Repo\NetsecStaging\tobNetsecstaging\Azure-Network-Security>
+PS C:\Users\username\workspace\Repo\NetsecStaging\tobNetsecstaging\Azure-Network-Security> git remote set-url origin https://github.com/tobystic/AzureNetSecStaging.git
 
 ***********************************************************************************************
 to install via Pip on Windows:
@@ -113,7 +111,7 @@ Stop-AzureRmApplicationGateway -ApplicationGateway $gw
 
 Windows PowerShell
 
-PS C:\windows\system32> New-SelfSignedCertificate -CertStoreLocation C:\Users\olotolor\Documents\workfiles -dnsname www.contoso.com
+PS C:\windows\system32> New-SelfSignedCertificate -CertStoreLocation C:\Users\username\Documents\workfiles -dnsname www.contoso.com
 ## You should see the following
 
    PSParentPath: Microsoft.PowerShell.Security\Certificate::LocalMachine\MY
