@@ -35,3 +35,13 @@ https://securitytrails.com/blog/install-kali-linux-cloud
 
 if you get some errors with permission, use this to fix : https://techoverflow.net/2019/03/16/how-to-solve-permission-denied-error-when-trying-to-echo-into-a-file/
 
+
+
+updating Kali key 
+---------------------
+ wget -q -O - archive.kali.org/archive-key.asc | sudo apt-key add
+
+then do:
+sudo apt-get update
+sudo apt-get upgrade
+
