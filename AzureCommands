@@ -89,3 +89,10 @@ Deallocate Azure Firewall*
 $azfw = Get-AzFirewall -Name redmndseattle -ResourceGroupName TobiSEA2
 $azfw.Deallocate()
 Set-AzFirewall -AzureFirewall $azfw
+
+
+*****************************************
+Back up Azure firewall 
+********************************************
+
+https://aidanfinn.com/?p=21553
