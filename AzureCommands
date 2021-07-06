@@ -96,3 +96,12 @@ Back up Azure firewall
 ********************************************
 
 https://aidanfinn.com/?p=21553
+
+
+**********************************************************
+change directory in Windows Onedrive
+************************************************************
+PS C:\>
+PS C:\>
+PS C:\> cd C:\Users\olotolor\"OneDrive - Microsoft"\workfiles\Templates
+PS C:\Users\olotolor\OneDrive - Microsoft\workfiles\Templates>
