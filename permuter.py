@@ -1,3 +1,4 @@
+## Code to list all possible permutations of a word. 
 
 def permut(givenword):
 
