@@ -155,4 +155,5 @@ protect the main branch in settings, then open a branch using "check out" then p
 >>git checkout -b feature/readme
 >> git push origin feature/readme
 
-then 
+then to return to main, just do the following
+>>git checkout main
