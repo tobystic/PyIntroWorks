@@ -143,3 +143,16 @@ lsof -i :<port_number>
 kill session
 
 kill -9 <PID>
+
+for Gitlab
+==========
+
+instead of pushing to main like this when unprotected
+>>git push origin main
+
+protect the main branch in settings, then open a branch using "check out" then push new update to a different file e.g
+
+>>git checkout -b feature/readme
+>> git push origin feature/readme
+
+then 
