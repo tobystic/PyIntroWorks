@@ -155,5 +155,11 @@ protect the main branch in settings, then open a branch using "check out" then p
 >>git checkout -b feature/readme
 >> git push origin feature/readme
 
-then to return to main, just do the following
+then to return to main after merge has been accepted , just do the following
 >>git checkout main
+then pull all from main
+>> git pull origin main
+
+to view the most recent commit
+>>git log -1
+
