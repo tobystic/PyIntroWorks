@@ -163,3 +163,5 @@ then pull all from main
 to view the most recent commit
 >>git log -1
 
+to see code owners
+>>student@sec540.sans.labs ~/code/dm-devops (feature/codeowners)$ cat <<EOF > ./CODEOWNERS
