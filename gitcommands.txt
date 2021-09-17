@@ -165,3 +165,6 @@ to view the most recent commit
 
 to see code owners
 >>student@sec540.sans.labs ~/code/dm-devops (feature/codeowners)$ cat <<EOF > ./CODEOWNERS
+
+to paste as code:
+go to Notepad++ and highlight, go to Plugin, go to -NPP export and Copy HTML to clipboard
