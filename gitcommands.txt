@@ -168,3 +168,12 @@ to see code owners
 
 to paste as code:
 go to Notepad++ and highlight, go to Plugin, go to -NPP export and Copy HTML to clipboard
+
+
+updating Kali key 
+---------------------
+ wget -q -O - archive.kali.org/archive-key.asc | sudo apt-key add
+
+then do:
+sudo apt-get update
+sudo apt-get upgrade
