@@ -1,16 +1,21 @@
-# PyIntroWorks
+## PyIntroWorks - A collection of My Swiss Knife: Quick tools
 
-** Sample codes to get familiar with Python from Java Background
+# Sample codes to get familiar with Python from Java Background
 
-**complex and primes among others numbers
+ - Complex and Primes among others numbers
+ - Euler project
+ - NumPy and Panda
+ - convert IP addresses to FQDN and git commands
 
-**Euler project
+# Git commands and Docker queries
+ 
+ - Git quick commands
+ - Docker/Containers 
 
-**NumPy and Panda
-**convert IP addresses to FQDN and git commands
-
-** Git commands and Docker queries
-
+# Kali Linux commands
+ - Updating Kali
+ - Installing apps
+ - 
 
 -----------------------------------------------------------------------
 to study:
