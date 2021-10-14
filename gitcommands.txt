@@ -177,3 +177,35 @@ updating Kali key
 then do:
 sudo apt-get update
 sudo apt-get upgrade
+
+
+
+## Create PR from branch
+***********************************************************************************************
+fork, switch to branch and create a PR
+*************************************************************************************************
+
+- Fork the project you want to contribute to
+
+- Clone that new project from your forked Github repo to your computer
+cd into that project
+
+- Create a new branch with 
+   *git branch my-improvements*
+
+- Use that branch with 
+   *git checkout my-improvements*
+   
+ Make all the changes you want
+- When you’re finished, use git add . and git commit as usual
+
+- Switch back to master (or main) with 
+   *git checkout master*
+
+- Push the changes back to Github with 
+   *git push origin my-improvements*
+   
+- Go to the link git gives you to complete the pull request process
+
+
+COURTESY : https://alvinalexander.com/git/how-to-create-pull-request-on-github-notes-steps/
