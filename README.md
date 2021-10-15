@@ -1,6 +1,12 @@
+
+![GitHub all releases](https://img.shields.io/github/downloads/tobystic/PyIntroWorks/total?color=%2300ff00&logo=Github&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/tobystic/PyIntroWorks?color=%2300ff00&logo=github&logoColor=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/tobystic/PyIntroWorks?logo=github&logoColor=white)
+
+
 ## PyIntroWorks - A collection of My Swiss Knife: Quick tools
 
-# Sample codes to get familiar with Python from Java Background
+# Sample codes to get familiar with Python 
 
  - Complex and Primes among others numbers
  - Euler project
