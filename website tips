@@ -1,0 +1,3 @@
+remove Footer:
+
+.site-info{display: none;}
