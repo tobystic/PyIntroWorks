@@ -1,3 +1,9 @@
 remove Footer:
 
 .site-info{display: none;}
+
+
+remove Follow button
+#actionbar {
+display: none;
+}
