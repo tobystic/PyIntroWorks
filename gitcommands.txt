@@ -36,6 +36,29 @@ git pull
 ## if upstream is rejected and pull fails,
 git pull origin master --allow-unrelated-histories
 
+
+******************************************************
+Error when trying to pull into  a new branch for update
+_{
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master2
+     }_
+     
+ fix:
+ 
+ git push -u 
+ git push --set-upstream origin tobi2
+ 
+ # this should set up this branch with the remote master, where tobi2 here is the new branch name. then do
+ git pull
+ 
+ 
 update prod on azure: git push azure master
  ------------------------------------------------------------------------------------------------------
  ********************************************************************************************************
