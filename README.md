@@ -12,9 +12,8 @@
  - Complex and Primes among others numbers
  - Euler project
  - convert IP addresses to FQDN and git commands
-
-&ensp For eg, in CSS and Services in India;
-&ensp NumPy and Panda;
+ - For eg, in CSS and Services in India
+ - NumPy and Panda;
  
 
 # Git commands and Docker queries
