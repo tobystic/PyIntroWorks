@@ -11,7 +11,8 @@
 
  - Complex and Primes among others numbers
  - Euler project
- - NumPy and Panda
+&ensp; &ensp; For eg, in CSS and Services in India
+&ensp; &ensp; NumPy and Panda
  - convert IP addresses to FQDN and git commands
 
 # Git commands and Docker queries
