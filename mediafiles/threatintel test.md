@@ -13,4 +13,4 @@ Analysts/human-based observation and intelligence collection
 
 2. check two
 
-&emsp;[test image](/mediafiles/threatINTEL.png)
+&emsp;/mediafiles/threatINTEL.png
