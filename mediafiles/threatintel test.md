@@ -16,6 +16,8 @@ Analysts/human-based observation and intelligence collection
 &emsp;&emsp;&emsp;&emsp;![test image](/mediafiles/threatINTEL.png)
 
 
-3. third time a champ
+3.third time a champ
 
-    ![test image](/mediafiles/threatINTEL.png)
+> test image paragraph
+
+> ![test image](/mediafiles/threatINTEL.png)
