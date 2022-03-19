@@ -6,5 +6,5 @@ First-party threat intelligence feeds (honeypots, malicious IP addresses, botnet
 Third-party sources (threat intelligence feeds, reference/lookup data)
 Analysts/human-based observation and intelligence collection
 
-
+1. List of items
    ![Screenshot of Threat-Intel ](../mediafiles/threatINTEL.png)
