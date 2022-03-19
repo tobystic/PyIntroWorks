@@ -8,4 +8,4 @@ Analysts/human-based observation and intelligence collection
 
 1. List of items  
 
-   ![Screenshot of Threat-Intel ](../mediafiles/threatINTEL.png)
+[! [Screenshot of Threat-Intel ](../mediafiles/threatINTEL.png)]
