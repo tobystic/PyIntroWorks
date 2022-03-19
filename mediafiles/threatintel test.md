@@ -13,4 +13,4 @@ Analysts/human-based observation and intelligence collection
 
 2. check two
 
-:::image type="content" source="/mediafiles/threatINTEL.png" alt-text="Screenshot of waf metrics page.":::
+&emsp;[test image](mediafiles/threatINTEL.png)
