@@ -14,3 +14,8 @@ Analysts/human-based observation and intelligence collection
 2. check two
 
 &emsp;&emsp;&emsp;&emsp;![test image](/mediafiles/threatINTEL.png)
+
+
+3. third time a champ
+
+&emsp;&emsp;&emsp;&emsp;![test image](/mediafiles/threatINTEL.png)
