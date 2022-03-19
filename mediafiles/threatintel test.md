@@ -18,4 +18,4 @@ Analysts/human-based observation and intelligence collection
 
 3. third time a champ
 
-   + ![test image](/mediafiles/threatINTEL.png)
+      ![test image](/mediafiles/threatINTEL.png)
