@@ -7,4 +7,4 @@ Third-party sources (threat intelligence feeds, reference/lookup data)
 Analysts/human-based observation and intelligence collection
 
 
- ![Screenshot of Threat-Intel ](../mediafiles/threatINTEL.png)
+   ![Screenshot of Threat-Intel ](../mediafiles/threatINTEL.png)
