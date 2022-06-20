@@ -27,5 +27,8 @@
  - 
 
 -----------------------------------------------------------------------
-_to study_⏰
+_to study_ ⏰
 O - Notaton. (Work with Sonya on Growth team)
+
+
+...
