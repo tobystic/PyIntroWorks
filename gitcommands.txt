@@ -89,6 +89,8 @@ https://www.newyorker.com/magazine/2019/11/04/a-clarifying-upending-week-in-the-
 from download_youtube.py import download_youtube.py
 
 
+// step by step for Altoroj
+https://github.com/ayan786/AltoroJ/wiki/Installing-Altoroj-On-VM
 
 
 /***********************************************
