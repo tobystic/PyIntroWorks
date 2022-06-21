@@ -193,6 +193,10 @@ to paste as code:
 go to Notepad++ and highlight, go to Plugin, go to -NPP export and Copy HTML to clipboard
 
 
+get your version:
+------------------------------
+cat /etc/os-release
+
 updating Kali key 
 ---------------------
  wget -q -O - archive.kali.org/archive-key.asc | sudo apt-key add
