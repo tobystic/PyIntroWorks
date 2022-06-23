@@ -1,0 +1,19 @@
+Step 1 - Install Windows Subsystem for Linux
+Windows has a tool called Windows Subsystem for Linux (WSL), that allows you to run a GNU/Linux environment on your Windows machine without the overhead of having to run a dual booting system on your machine.
+
+To install WSL on your machine open up an elevated PowerShell command and type:
+
+wsl --install
+This will download the latest Linux kernel, and install a Linux distribution, by default this is Ubuntu.
+
+Once WSL has been installed you will be asked to set up a username and password.  Follow best practices with this.  If you ever forget the password, you can reset it.
+
+Step 2 - Install Ruby
+The cfn-nag tool has a dependency on Ruby so we need to ensure that is installed.  We can do this by issuing the command within our WSL terminal:
+
+sudo apt install ruby
+Step 3 - Install the cfn-nag tool
+Now you have all the dependencies installed you can install the tool itself.  To do that we use the following command:
+
+sudo gem install cfn-nag
+
