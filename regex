@@ -27,3 +27,6 @@ digit
 Alternation
 -------------
 / I\slike\s(java|python) will match I like Java and also match I like Python
+
+Or situation
+(car|truck|bus|airplane|rocket)
