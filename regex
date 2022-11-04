@@ -30,3 +30,5 @@ Alternation
 
 Or situation
 (car|truck|bus|airplane|rocket)
+
+I\slike\s(java|python\.com)+new will match I like python.comnew
