@@ -1,0 +1,32 @@
+
+**Instruction and other Linux commands**
+
+https://forum.tufin.com/support/kc/latest/Content/ST2/ManagingTOS/CleanInstall-Azure.htm#createvm
+
+sudo adduser <USERNAME>
+
+sudo usermod -aG sudo <USER> // switch sudo to wheel or sys or whatever your admin group is. check /etc/sudoers for admin group
+
+sudo passwd USER // sudo passwd tobi
+
+or  sudo usermod -aG tobi -p tobi
+
+// check admin file to make sure user is there 
+
+cat /etc/sudoers
+
+//switch to user
+su - tobi
+//check id and make sure it's part of admin group
+id
+
+//https://www.cyberciti.biz/faq/add-new-user-account-with-admin-access-on-linux/
+
+
+// update kernel x wireguard- use RHEL info from here.
+https://www.wireguard.com/install/
+
+
+// List the disks to verify the new disk has been added.
+
+[<ADMIN> ~]# lsblk -o NAME,HCTL,SIZE,MOUNTPOINT | grep -i "sd"
