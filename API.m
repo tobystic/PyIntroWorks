@@ -1,7 +1,7 @@
 
-** _Post Man Usage_ **  
+## Post Man Usage
 
-To login with a GET request
+_ To login with a GET request _
 1. Go to the app and copy it's URL
 2. Paste the URL
 3. Go to Body --> Raw --> JSON
@@ -10,4 +10,4 @@ To login with a GET request
   "email": "toby@yahoo.com",
   "Password": "C***/o*/2whateveryourpasword"
   }
-
+5. Send the request
