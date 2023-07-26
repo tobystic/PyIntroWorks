@@ -240,3 +240,16 @@ cd into that project
 COURTESY : https://alvinalexander.com/git/how-to-create-pull-request-on-github-notes-steps/
 
 *testing for italic*
+
+
+ADB2C
+*******
+app name should be used as the tenant name.
+
+Python flask app
+***********************
+1. make sure the template is specified  app.py e.g app = Flask(__name__, template_folder='./')
+2. Make sure the Github workflow Python version is the same as the one in Azure App Settings 
+3. use the necessary requirements alone
+4. gunicorn is called automatically, no need to set one up
+5. 
