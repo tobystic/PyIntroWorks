@@ -31,3 +31,12 @@ Connect via RDP: Use the Windows Remote Desktop Connection to connect to the [WS
 
 
 MS docs: [Install commands for apps](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
+
+
+##Use Ubuntu desktop
+sudo apt install ubuntu-desktop
+
+
+sudo service start slim or gdm3 or lightdm
+
+
