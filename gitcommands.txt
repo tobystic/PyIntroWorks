@@ -240,3 +240,11 @@ cd into that project
 COURTESY : https://alvinalexander.com/git/how-to-create-pull-request-on-github-notes-steps/
 
 *testing for italic*
+
+-----------------------------
+access azure resource graph from CLI
+
+https://learn.microsoft.com/en-us/azure/governance/resource-graph/first-query-azurecli
+
+update resource config /az login
+https://learn.microsoft.com/en-us/powershell/module/az.accounts/update-azconfig?view=azps-15.2.0
