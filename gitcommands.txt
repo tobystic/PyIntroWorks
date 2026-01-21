@@ -248,3 +248,7 @@ https://learn.microsoft.com/en-us/azure/governance/resource-graph/first-query-az
 
 update resource config /az login
 https://learn.microsoft.com/en-us/powershell/module/az.accounts/update-azconfig?view=azps-15.2.0
+
+To enable WAM and EnableLoginByWam
+
+Update-AzConfig -EnableLoginByWam $true
