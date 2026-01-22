@@ -252,3 +252,12 @@ https://learn.microsoft.com/en-us/powershell/module/az.accounts/update-azconfig?
 To enable WAM and EnableLoginByWam
 
 Update-AzConfig -EnableLoginByWam $true
+
+
+
+rest API in VSCODE
+
+// use REST extention, create new file and send GET/PUT request. Put a line between the request and the authorization
+GET https://management.azure.com/subscriptions/9fc173a3-4300-401d-b8e7-8ee445f2a6cf/resourceGroups/azsecpackautoconfigrg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/?api-version=2025-01-31-preview
+Content-Type: application/json
+Authorization:
