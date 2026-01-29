@@ -261,3 +261,7 @@ rest API in VSCODE
 GET https://management.azure.com/subscriptions/9fc173a3-4300-401d-b8e7-8ee445f2a6cf/resourceGroups/azsecpackautoconfigrg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/?api-version=2025-01-31-preview
 Content-Type: application/json
 Authorization:
+
+//generate access token in Azure
+ $token =  az account get-access-token | ConvertFrom-Json                                                                                                                      
+ echo $token.accesstoken
